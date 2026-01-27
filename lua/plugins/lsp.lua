@@ -30,6 +30,15 @@ return {
         opts = {},
     },
     {
+        "neovim/nvim-lspconfig",
+        event = {
+            "BufReadPre",
+            "BUfNewFile",
+        },
+        config = function()
+        end,
+    },
+    {
         "mason-org/mason-lspconfig.nvim",
         dependencies = {
             { "mason-org/mason.nvim" },

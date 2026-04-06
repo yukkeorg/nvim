@@ -1,4 +1,3 @@
--- NVIM Options
 vim.opt.expandtab = true
 vim.opt.shiftround = true
 vim.opt.tabstop = 4
@@ -17,7 +16,3 @@ vim.opt.showmode = true
 vim.opt.scrolloff = 5
 
 vim.opt.shortmess:append("I")
-
--- Keymaps
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
